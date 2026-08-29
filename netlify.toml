@@ -1,4 +1,4 @@
-﻿[build]
+[build]
   base = "imam-university-nextjs"
   command = "npm run build"
   publish = ".next"
