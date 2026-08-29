@@ -1,1 +1,12 @@
-export default function robots(){return {rules:{userAgent:"*",allow:"/",disallow:["/admin"]},sitemap:"https://imamuniversity.edu.so/sitemap.xml"}}
+export const dynamic = "force-static";
+
+export default function robots() {
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: ["/admin"],
+    },
+    sitemap: "https://imam-university-somalia.netlify.app/sitemap.xml",
+  };
+}
